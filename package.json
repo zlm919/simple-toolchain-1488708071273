@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "Arc as an App",
   "dependencies": {
-  	"regenerator":"*",
-  	"nodent":"*",
-  	"js-beautify":"*",
+    "regenerator":"*",
+    "nodent":"*",
+    "js-beautify":"*",
     "strong-arc": "1.8.3"
   },
   "engines": {
-    "node": "6.6.0",
-    "npm":"3.10.3"
+    "node": "0.12.*"
   },
   "devDependencies": {},
   "scripts": {

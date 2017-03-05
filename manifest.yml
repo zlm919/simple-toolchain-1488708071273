@@ -5,4 +5,4 @@ applications:
   domain: mybluemix.net
   name: StrongLoop-Arc-Ui
   host: StrongLoop-Arc-Ui
-  disk_quota: 1024M
+  disk_quota: 1524M
