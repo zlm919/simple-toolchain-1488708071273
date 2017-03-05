@@ -1,16 +1,17 @@
 {
-	"name": "HelloWorldNodeApp",
-	"version": "0.0.1",
-    "private": true,
-	"scripts": {
-		"start": "node app.js"
-	},
-	"dependencies": {
-		"express": "4.13.x",
-		"cfenv": "1.0.x"
-	},
-	"repository": {},
-	"engines": {
-		"node": "4.2.x"
-	} 
+  "name": "arc",
+  "version": "1.0.0",
+  "description": "Arc as an App",
+  "dependencies": {
+    "strong-arc": "1.8.3"
+  },
+  "engines": {
+    "node": "0.12.*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd node_modules && strong-arc/bin/cli.js"
+  },
+  "license": "ISC"
 }
